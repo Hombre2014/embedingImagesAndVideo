@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>Embeding Images and Video</title>
+</head>
+
+<body>
+    <div id="container">
+        <header id="main-header">
+            <nav id="nav-bar">
+                <div id="left-side">
+                    <i class="fas fa-bars menu"></i>
+                    <div id="logo">
+                        <img src="img/youtube_logo.png" width=auto height="30px">
+                        <h3 id="title">YouTube</h3>
+                    </div>
+                </div>
+                <div id="center">
+                    <form id="search">
+                        <input type="search" id="field" placeholder="Search">
+                        <button id="search-btn" type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        <i class="fas fa-microphone menu"></i>
+                    </form>
+                </div>
+                <div id="right-side">
+                    <div id="icons">
+                        <i class="fas fa-video menu"></i>
+                        <i class="fas fa-th menu"></i>
+                        <i class="fas fa-bell menu"></i>
+                    </div>
+                    <button id="signin-btn" type="button"><i class="far fa-user-circle"></i> SIGN IN</button>
+                </div>
+            </nav>
+        </header>
+        <main id="content">
+            <section id="main-video">
+                <div id="left-content">
+                    <div id="player">
+                        <iframe id="current-video" src="https://www.youtube.com/embed/VuN8qwZoego"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div id="video-info">
+                        <h1 id="video-title">Make a JavaScript Drum Kit in Vanilla JS!
+                            <a id="link-list" href="https://www.youtube.com/hashtag/javascript30">#JavaScript30</a> 1/30
+                        </h1>
+                        <div id="more-info">
+                            <div class="related-video-view-info">
+                                <span class="views">239,610 views</span>
+                                <span class="dot">•</span>
+                                <span class="ago">Dec 12, 2016</span>
+                            </div>
+                            <div id="like-container">
+                                <a href="#" id="like"><i class="fas fa-thumbs-up"></i><span
+                                        class="span-text">3.3K</span></a>
+                                <a href="#" id="dislike"><i class="fas fa-thumbs-down"></i><span
+                                        class="span-text">44</span></a>
+                                <a href="#" id="share"><i class="fas fa-share"></i><span
+                                        class="span-text">SHARE</span></a>
+                                <a href="#" id="save"><i class="fas fa-indent"></i><span
+                                        class="span-text">SAVE</span></a>
+                                <a href="#" id="menu-link"><i class="fas fa-ellipsis-h"></i></a>
+                            </div>
+                        </div>
+                        <div class="separator">
+                            <div id="bold"></div>
+                        </div>
+                    </div>
+                    <section id="comments">
+                        <div id="author">
+                            <div id="top-line">
+                                <div id="bio">
+                                    <img class="photo"
+                                        src="https://yt3.ggpht.com/ytc/AKedOLSu__nn9q6m7BdEYGEn7HR-nSi7QltyfeEzRTSLv98=s48-c-k-c0x00ffffff-no-rj">
+                                    <div id="name">
+                                        <h2>Web Bos</h2>
+                                        <span>137K subscribers</span>
+                                    </div>
+                                </div>
+                                <button id="subscribe">SUBSCRIBE</button>
+                            </div>
+                            <div id="bottom-line">
+                                <p>Day 1 of 30. Let's make a JavaScript Drum kit and bunch along the way. Get all 30
+                                    videos and Starter files for free over at JavaScript30.com.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="separator"></div>
+                        <div id="add-comment">
+                            <div id="number-comment">
+                                <span>385 Comments</span>
+                                <div id="sort">
+                                    <i class="fas fa-sort-amount-up"></i>
+                                    <a href="$"><span>SORT BY</span></a>
+                                </div>
+                            </div>
+                            <div id="public-comment">
+                                <img class="photo" src="https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj">
+                                <div id="new-comment">
+                                    <a id="p-comment-link" href="#">Add a public comment ...</a>
+                                    <div class="separator"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="customer-comment">
+                            <img class="photo" src="https://yt3.ggpht.com/ytc/AKedOLTv9OVNe3QCNitMHJIi7Lt1ZbXhVC4Xxyah3FKI=s48-c-k-c0x00ffffff-no-rj">
+                            <div class="comment-meta">
+                                <span class="who-when"><span class="name-bold">alehunter15</span> 3 years ago</span>
+                                <p class="comment-text">All hail The Odin Project WEB Development 101 ;)</p>
+                                <div class="icons">
+                                    <a href="#" class="like-c"><i class="fas fa-thumbs-up"></i><span
+                                        class="span-text">425</span></a>
+                                    <a href="#" class="dislike-c"><i class="fas fa-thumbs-down"></i><span
+                                        class="span-text"> </span></a>
+                                    <a href="#" class="reply"><span class="span-text">REPLY</span></a>
+                                </div>
+                                <div class="more-comments">
+                                    <i class="fas fa-caret-down"></i>
+                                    <p class="replies">View 20 replies</p>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v more-details"></i></a>
+                        </div>
+                        <div class="customer-comment">
+                            <img class="photo" src="https://yt3.ggpht.com/ytc/AKedOLQIIojhhm2hI-yk_t5HBB9eNZd63vZv8OAySA=s48-c-k-c0x00ffffff-no-rj">
+                            <div class="comment-meta">
+                                <span class="who-when"><span class="name-bold">SongMachina</span> 4 years ago</span>
+                                <p class="comment-text">It was nice seeing an interesting web project that didn't need any dev tools or extra libraries to work. Thanks for the vid :)</p>
+                                <div class="icons">
+                                    <a href="#" class="like-c"><i class="fas fa-thumbs-up"></i><span
+                                        class="span-text">1</span></a>
+                                    <a href="#" class="dislike-c"><i class="fas fa-thumbs-down"></i><span
+                                        class="span-text"> </span></a>
+                                    <a href="#" class="reply"><span class="span-text">REPLY</span></a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v more-details"></i></a>
+                        </div>
+                        <div class="customer-comment">
+                            <img class="photo" src="https://yt3.ggpht.com/ytc/AKedOLTB1Hu9yXwRyYw80ZKLbgzMV_7H5DvG9wVYoA=s48-c-k-c0x00ffffff-no-rj">
+                            <div class="comment-meta">
+                                <span class="who-when"><span class="name-bold">Rayn V B</span> 3 years ago</span>
+                                <p class="comment-text">For the es6 template string make sure you are using the  ` apostrophe/backtick and not the single quote '</p>
+                                <div class="icons">
+                                    <a href="#" class="like-c"><i class="fas fa-thumbs-up"></i><span
+                                        class="span-text">35</span></a>
+                                    <a href="#" class="dislike-c"><i class="fas fa-thumbs-down"></i><span
+                                        class="span-text"> </span></a>
+                                    <a href="#" class="reply"><span class="span-text">REPLY</span></a>
+                                </div>
+                                <div class="more-comments">
+                                    <i class="fas fa-caret-down"></i>
+                                    <p class="replies">View 6 replies</p>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v more-details"></i></a>
+                        </div>
+                        <div class="customer-comment">
+                            <img class="photo" src="https://yt3.ggpht.com/ytc/AKedOLTkwx0IGIfNZ_QjDdnWRd2n8n4lsi1vqvHivvYq=s48-c-k-c0x00ffffff-no-rj">
+                            <div class="comment-meta">
+                                <span class="who-when"><span class="name-bold"><a href="https://www.youtube.com/channel/UCuNzfvSM9PBa9USJMQnZHyg">Artur Domanski</a></span> 3 years ago</span>
+                                <p class="comment-text">I'm surprised how many new things I've learned from this vid.</p>
+                                <div class="icons">
+                                    <a href="#" class="like-c"><i class="fas fa-thumbs-up"></i><span
+                                        class="span-text">18</span></a>
+                                    <a href="#" class="dislike-c"><i class="fas fa-thumbs-down"></i><span
+                                        class="span-text"> </span></a>
+                                    <a href="#" class="reply"><span class="span-text">REPLY</span></a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v more-details"></i></a>
+                        </div>
+                        <div class="customer-comment">
+                            <img class="photo" src="https://yt3.ggpht.com/ytc/AKedOLTbPNkIjOxKnoH3fVvoYkrJ4R01i51g3-BMTQ=s48-c-k-c0x00ffffff-no-rj">
+                            <div class="comment-meta">
+                                <span class="who-when"><span class="name-bold">amirhossein jafari</span> 1 year ago</span>
+                                <p class="comment-text">The most funniest, useful Course Ever!!!  You're the best Wes Bos :)</p>
+                                <div class="icons">
+                                    <a href="#" class="like-c"><i class="fas fa-thumbs-up"></i><span
+                                        class="span-text">1</span></a>
+                                    <a href="#" class="dislike-c"><i class="fas fa-thumbs-down"></i><span
+                                        class="span-text"> </span></a>
+                                    <a href="#" class="reply"><span class="span-text">REPLY</span></a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v more-details"></i></a>
+                        </div>
+                        <div class="customer-comment">
+                            <img class="photo" src="https://yt3.ggpht.com/ytc/AKedOLR1IYfi3i34SVTOTY0Wyy6LroGzqrvD3MJqPA=s48-c-k-c0x00ffffff-no-rj">
+                            <div class="comment-meta">
+                                <span class="who-when"><span class="name-bold">Eugen</span> 4 year ago (edited)</span>
+                                <p class="comment-text">Nice video, one question though: Is not easier to remove the class using the same logic of key down, but instead remove it at key up? This way you will avoid the loop on each key.</p>
+                                <div class="icons">
+                                    <a href="#" class="like-c"><i class="fas fa-thumbs-up"></i><span
+                                        class="span-text">1</span></a>
+                                    <a href="#" class="dislike-c"><i class="fas fa-thumbs-down"></i><span
+                                        class="span-text"> </span></a>
+                                    <a href="#" class="reply"><span class="span-text">REPLY</span></a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v more-details"></i></a>
+                        </div>
+                        <div class="customer-comment">
+                            <img class="photo" src="https://yt3.ggpht.com/ytc/AKedOLSEO3IDcJBL4gM-n2ai8881TvR4K1cGZV-9Rdl5Jw=s48-c-k-c0x00ffffff-no-rj">
+                            <div class="comment-meta">
+                                <span class="who-when"><span class="name-bold">Edward Leung</span> 1 year ago</span>
+                                <p class="comment-text">thanks for the keyEvent, audio, transition, and animation tutorial bro!</p>
+                                <div class="icons">
+                                    <a href="#" class="like-c"><i class="fas fa-thumbs-up"></i><span
+                                        class="span-text">1</span></a>
+                                    <a href="#" class="dislike-c"><i class="fas fa-thumbs-down"></i><span
+                                        class="span-text"> </span></a>
+                                    <a href="#" class="reply"><span class="span-text">REPLY</span></a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v more-details"></i></a>
+                        </div>
+                        <div class="customer-comment">
+                            <img class="photo" src="https://yt3.ggpht.com/ytc/AKedOLRVgFSVUrSiRprnfF3daDf9WDgah9xf9Wh4Al32ZOJBag=s48-c-k-c0x00ffffff-no-rj">
+                            <div class="comment-meta">
+                                <span class="who-when"><span class="name-bold">Russel Beattie</span> 4 years ago</span>
+                                <p class="comment-text">The transitionend event will bubble up (like any other DOM event). You could have a single event listener on the ".keys" DIV which listens for transitionend, and then use the event.target object to determine the key DIV and remove the ".playing" class.</p>
+                                <div class="icons">
+                                    <a href="#" class="like-c"><i class="fas fa-thumbs-up"></i><span
+                                        class="span-text">6</span></a>
+                                    <a href="#" class="dislike-c"><i class="fas fa-thumbs-down"></i><span
+                                        class="span-text"> </span></a>
+                                    <a href="#" class="reply"><span class="span-text">REPLY</span></a>
+                                </div>
+                                <div class="more-comments">
+                                    <i class="fas fa-caret-down"></i>
+                                    <p class="replies">View reply</p>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v more-details"></i></a>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <aside id="right-column">
+                <div id="video-container">
+                    <div id="video-frame">
+                        <div class="related-video">
+                            <img class="video-tumbnail" src="img/2.webp">
+                            <div class="related-video-details">
+                                <a href="https://www.youtube.com/watch?v=xu87YWbr4X0" class="related-video-title">
+                                    <h3>We build a CSS + JS Clock in Vanilla JS — #JavaScript30 2/30</h3>
+                                </a>
+                                <div class="related-video-info">
+                                    <span class="channel">Web Bos</span>
+                                </div>
+                                <div class="related-video-view-info">
+                                    <span class="views">63K views</span>
+                                    <span class="dot">•</span>
+                                    <span class="ago">4 years ago</span>
+                                </div>
+                            </div>
+                            <div class="related-video-menu">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-container">
+                    <div id="video-frame">
+                        <div class="related-video">
+                            <img class="video-tumbnail" src="img/3.webp">
+                            <div class="related-video-details">
+                                <a href="https://www.youtube.com/watch?v=AHLNzv13c2I" class="related-video-title">
+                                    <h3>Woah! CSS Variables?! — #JavaScript30 3/30</h3>
+                                </a>
+                                <div class="related-video-info">
+                                    <span class="channel">Web Bos</span>
+                                </div>
+                                <div class="related-video-view-info">
+                                    <span class="views">94K views</span>
+                                    <span class="dot">•</span>
+                                    <span class="ago">4 years ago</span>
+                                </div>
+                            </div>
+                            <div class="related-video-menu">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-container">
+                    <div id="video-frame">
+                        <div class="related-video">
+                            <img class="video-tumbnail" src="img/4.webp">
+                            <div class="related-video-details">
+                                <a href="https://www.youtube.com/watch?v=HB1ZC7czKRs" class="related-video-title">
+                                    <h3>JavaScript Array Cardio Practice - Day 1 — #JavaScript30 4/30</h3>
+                                </a>
+                                <div class="related-video-info">
+                                    <span class="channel">Web Bos</span>
+                                </div>
+                                <div class="related-video-view-info">
+                                    <span class="views">37K views</span>
+                                    <span class="dot">•</span>
+                                    <span class="ago">4 years ago</span>
+                                </div>
+                            </div>
+                            <div class="related-video-menu">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-container">
+                    <div id="video-frame">
+                        <div class="related-video">
+                            <img class="video-tumbnail" src="img/5.webp">
+                            <div class="related-video-details">
+                                <a href="https://www.youtube.com/watch?v=9eif30i26jg" class="related-video-title">
+                                    <h3>Flexbox + JavaScript Image Gallery — #JavaScript30 5/30</h3>
+                                </a>
+                                <div class="related-video-info">
+                                    <span class="channel">Web Bos</span>
+                                </div>
+                                <div class="related-video-view-info">
+                                    <span class="views">13K views</span>
+                                    <span class="dot">•</span>
+                                    <span class="ago">4 years ago</span>
+                                </div>
+                            </div>
+                            <div class="related-video-menu">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-container">
+                    <div id="video-frame">
+                        <div class="related-video">
+                            <img class="video-tumbnail" src="img/6.webp">
+                            <div class="related-video-details">
+                                <a href="https://www.youtube.com/watch?v=YnfwDQ5XYF4" class="related-video-title">
+                                    <h3>JavaScript Fundamentals: Reference VS Copy #JavaScript30 6/30</h3>
+                                </a>
+                                <div class="related-video-info">
+                                    <span class="channel">Web Bos</span>
+                                </div>
+                                <div class="related-video-view-info">
+                                    <span class="views">14K views</span>
+                                    <span class="dot">•</span>
+                                    <span class="ago">4 years ago</span>
+                                </div>
+                            </div>
+                            <div class="related-video-menu">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-container">
+                    <div id="video-frame">
+                        <div class="related-video">
+                            <img class="video-tumbnail" src="img/7.jpg">
+                            <div class="related-video-details">
+                                <a href="https://www.youtube.com/watch?v=POP_qri7RA8" class="related-video-title">
+                                    <h3>JavaScript Exercise: Follow Along Links - #JavaScript30 7/30</h3>
+                                </a>
+                                <div class="related-video-info">
+                                    <span class="channel">Web Bos</span>
+                                </div>
+                                <div class="related-video-view-info">
+                                    <span class="views">11K views</span>
+                                    <span class="dot">•</span>
+                                    <span class="ago">4 years ago</span>
+                                </div>
+                            </div>
+                            <div class="related-video-menu">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-container">
+                    <div id="video-frame">
+                        <div class="related-video">
+                            <img class="video-tumbnail" src="img/8.jpg">
+                            <div class="related-video-details">
+                                <a href="https://www.youtube.com/watch?v=toNFfAaWghU" class="related-video-title">
+                                    <h3>Make a Whack A Mole Game with Vanilla JS - #JavaScript30 8/30</h3>
+                                </a>
+                                <div class="related-video-info">
+                                    <span class="channel">Web Bos</span>
+                                </div>
+                                <div class="related-video-view-info">
+                                    <span class="views">28K views</span>
+                                    <span class="dot">•</span>
+                                    <span class="ago">4 years ago</span>
+                                </div>
+                            </div>
+                            <div class="related-video-menu">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-container">
+                    <div id="video-frame">
+                        <div class="related-video">
+                            <img class="video-tumbnail" src="img/9.webp">
+                            <div class="related-video-details">
+                                <a href="https://www.youtube.com/watch?v=SadWPo2KZWg" class="related-video-title">
+                                    <h3>How JavaScript's Array Reduce Works - #JavaScript30 9/30</h3>
+                                </a>
+                                <div class="related-video-info">
+                                    <span class="channel">Web Bos</span>
+                                </div>
+                                <div class="related-video-view-info">
+                                    <span class="views">36K views</span>
+                                    <span class="dot">•</span>
+                                    <span class="ago">4 years ago</span>
+                                </div>
+                            </div>
+                            <div class="related-video-menu">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-container">
+                    <div id="video-frame">
+                        <div class="related-video">
+                            <img class="video-tumbnail" src="img/10.webp">
+                            <div class="related-video-details">
+                                <a href="https://www.youtube.com/watch?v=yx-HYerClEA" class="related-video-title">
+                                    <h3>Custom HTML5 Video Player - #JavaScript30 10/30</h3>
+                                </a>
+                                <div class="related-video-info">
+                                    <span class="channel">Web Bos</span>
+                                </div>
+                                <div class="related-video-view-info">
+                                    <span class="views">36K views</span>
+                                    <span class="dot">•</span>
+                                    <span class="ago">4 years ago</span>
+                                </div>
+                            </div>
+                            <div class="related-video-menu">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-container">
+                    <div id="video-frame">
+                        <div class="related-video">
+                            <img class="video-tumbnail" src="img/11.webp">
+                            <div class="related-video-details">
+                                <a href="https://www.youtube.com/watch?v=X7Cbtra0C6I" class="related-video-title">
+                                    <h3>JavaScript Geolocation based Speedometer and Compass - #JavaScript30 11/30</h3>
+                                </a>
+                                <div class="related-video-info">
+                                    <span class="channel">Web Bos</span>
+                                </div>
+                                <div class="related-video-view-info">
+                                    <span class="views">36K views</span>
+                                    <span class="dot">•</span>
+                                    <span class="ago">4 years ago</span>
+                                </div>
+                            </div>
+                            <div class="related-video-menu">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-container">
+                    <div id="video-frame">
+                        <div class="related-video">
+                            <img class="video-tumbnail" src="img/12.webp">
+                            <div class="related-video-details">
+                                <a href="https://www.youtube.com/watch?v=y4gZMJKAeWs" class="related-video-title">
+                                    <h3>Ajax Type Ahead with fetch() - #JavaScript30 12/30</h3>
+                                </a>
+                                <div class="related-video-info">
+                                    <span class="channel">Web Bos</span>
+                                </div>
+                                <div class="related-video-view-info">
+                                    <span class="views">36K views</span>
+                                    <span class="dot">•</span>
+                                    <span class="ago">4 years ago</span>
+                                </div>
+                            </div>
+                            <div class="related-video-menu">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+</body>
+
+</html>
