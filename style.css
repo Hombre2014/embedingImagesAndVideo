@@ -365,3 +365,14 @@ h2 {
 .more-details:hover {
     visibility: visible;
 }
+
+@media only screen and (max-width: 1024px) {
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+    #main-video {
+        width: 93%;
+        
+    }
+}
