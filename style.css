@@ -128,8 +128,12 @@ body {
 }
 
 #main-video {
-    width: 80%;
+    flex: 0 0 66.66%;
     padding: 2rem;
+}
+
+#num-subs {
+    margin-bottom: .5rem;
 }
 
 #left-content {
@@ -336,7 +340,9 @@ h2 {
 }
 
 .comment-text {
-    margin: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
 }
 
 .customer-comment {
